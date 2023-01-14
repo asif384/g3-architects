@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgba(255, 144, 14, 0.1);
+
+
+}
+
+/*................
+Navbar Css styles 
+..................*/
+nav{
+    justify-content: space-between;
+    display: flex;
+}
+.left-nav{
+    margin-left: 150px;
+    padding-top: 30px;
+}
+.left-nav p{
+    color: #131313;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Work Sans';
+}
+.right-nav{
+    margin-right: 160px;
+    padding-top: 43px;
+}
+ul{
+    display: flex;
+}
+ul li{
+  list-style: none;
+  font-size: 15px;
+  color: #424242;
+  text-align: center;
+  padding-left: 40px;
+}
+ul li a{
+    text-decoration: none;
+    
+}
+
+/*..........
+ Heading styles
+ ........... */
+.header-details{
+    /* width: 862px; */
+    height:100%
+    /* padding-top: 205px;
+    padding-left: 529px;
+    margin-right: 529px; */
+}
+
+.header-title, .header-subtitle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+
+}
+.header-subtitle{
+    padding-top: 15px;
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+}
+.explore-more{
+    color: white;
+    background-color: #ff832c;
+    border: none;
+    padding: 16px 21px;
+    border-radius: 8px;
+    display: flex;
+    margin-left: 5px 550px;
+    margin: 24px 550px;
+}
+.bannar{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 25px;
+
+}
+.bannar-img{
+    width: 950px;
+
+}
