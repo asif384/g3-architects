@@ -3,10 +3,20 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family:'Work Sans' ;
+}
 header{
     background: rgba(255, 144, 14, 0.1);
 
 
+}
+.primary-font{
+    font-size: 15px;
+}
+.primary-font-color{
+    color: #424242;
 }
 
 /*................
@@ -24,8 +34,7 @@ nav{
     color: #131313;
     font-size: 30px;
     font-style: normal;
-    font-weight: 700;
-    font-family: 'Work Sans';
+    font-weight: 700;   
 }
 .right-nav{
     margin-right: 160px;
@@ -36,8 +45,6 @@ ul{
 }
 ul li{
   list-style: none;
-  font-size: 15px;
-  color: #424242;
   text-align: center;
   padding-left: 40px;
 }
@@ -92,3 +99,8 @@ ul li a{
     width: 950px;
 
 }
+
+/* sponsor section css */
+
+.sponsor-title{}
+.sponsor-subtitle{}
