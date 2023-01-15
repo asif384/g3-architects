@@ -64,7 +64,7 @@ ul li a{
  ..............*/
 .header-details{
     height:100%;
-     padding-top:60px;
+    padding-top:60px;
 }
 
 .header-title{
@@ -163,12 +163,25 @@ ul li a{
 }
 .right-feature{
     width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .right-feature img{
     height:500px ;
     width:400px ;
 }
+.experience{
+    position: absolute;
+    color: white;
+    background-color: #ff832c;
+    border: none;
+    padding: 21px 15px;
+    margin: -31px -48px;
+    border-radius: 13px;
+    font-size: 30px;
+}
 .left-feature{
+
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -356,5 +369,66 @@ rights section styles
     background-color: antiquewhite;
     height: 50px;
     border-radius: 5px;
+ }
+
+ /* -------------
+ Media Queries
+ ------------- */
+
+ /* Mobile screen */
+ @media only screen and (max-width:576px){
+    header, .header-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bannar-img{
+        width: 100%;
+    }
+    .sponsors-container, .feature-types{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center
+    }
+    .left-nav{
+        margin-left: 10px;
+        padding-top: 36px;
+        font-size: 10px;
+        
+    }
+    .right-nav{
+        margin-right: 10px;
+        padding-top: 12px;
+        font-size: 13px;
+    }
+    ul li{
+        list-style: none;
+        text-align: center;
+        padding-left: 6px;
+        font-size: 8px;
+        padding-right: 3px;
+      
+      }
+      .quick-feature-img{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2px;
+        width:100% ;
+        height: 100%;
+ 
+    }
+    .quick-feature-details{
+        display: none;
+    }
+    .left-feature{
+        width: 100%;
+    }
+
+
+
  }
  
