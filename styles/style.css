@@ -65,29 +65,31 @@ ul li a{
      padding-top:60px;
 }
 
-.header-title, .header-subtitle{
+.header-title{
     font-family: 'Work Sans';
     font-style: normal;
-    font-weight: 700;
     font-size: 44px;
     text-align: center;
 
 }
 .header-subtitle{
-    padding-top: 15px;
-    font-size: 16px;
+    padding-top: 11px;
+    font-size: 13px;
     color: #727272;
-    font-weight: 400;
+    text-align: center;
+}
+.btn-primary-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 0px
 }
 .btn-primary{
     color: white;
     background-color: #ff832c;
     border: none;
-    padding: 16px 21px;
-    border-radius: 8px;
-    display: flex;
-    margin-left: 5px 545px;
-    margin: 24px 540px;
+    padding: 14px 17px;
+    border-radius: 7px;
 }
 .bannar{
     padding-top: 10px;
@@ -98,7 +100,6 @@ ul li a{
 }
 .bannar-img{
     width: 950px;
-
 }
 
 /*....................
@@ -188,10 +189,11 @@ ul li a{
 /*................
  facts section css 
  ................*/
-.facts{padding-top: 130px;
+.facts{
+    padding-top: 130px;
     height: 100%;
     padding-bottom: 80px;
-  display: none;
+    /* display: none; */
 }
 .facts-title{
     padding-left: 100px;
@@ -244,8 +246,9 @@ ul li a{
 sponsor section css
 ...................*/
 .sponsors-container{
-  display: none;
+  /* display: none; */
     justify-content: center;
+    padding-top: 45px;
 }
 
 .sponsors-title{
@@ -276,7 +279,7 @@ sponsor section css
 rights section styles
 ..................... */
 .rights-section{
-    display: none;
+    /* display: none; */
     display: flex;
     justify-content: center;
     height: 150px;
