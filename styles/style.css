@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-/*............
+/*.............
  common styles 
 ..............*/
 body{
@@ -20,7 +20,7 @@ header{
     color: #424242;
 }
 
-/*................
+/*.................
 Navbar Css styles 
 ..................*/
 nav{
@@ -55,9 +55,9 @@ ul li a{
     
 }
 
-/*..........
+/*..............
  Heading styles
- ........... */
+ ..............*/
 .header-details{
     height:100%
 }
@@ -98,12 +98,12 @@ ul li a{
 
 }
 
-/*................
+/*....................
  Feature section styles
- ................. */
+ ....................*/
 .features{
     margin-top: 40px;
-    display: none;
+  /*display: none;*/
 }
 .quick-feature{
     display: flex; 
@@ -148,13 +148,13 @@ ul li a{
     background-color: #ff832c;
     border: none;
 }
-/*...............
+/*................
  facts section css 
  ................*/
 .facts{padding-top: 130px;
     height: 100%;
     padding-bottom: 80px;
-    display: none;
+  /*display: none;*/
 }
 .facts-title{
     padding-left: 100px;
@@ -203,11 +203,11 @@ ul li a{
 }
 
 
-/*............... 
+/*.................. 
 sponsor section css
-.................*/
+...................*/
 .sponsors-container{
-    display: none;
+  /*display: none;*/
     justify-content: center;
 }
 
@@ -234,7 +234,12 @@ sponsor section css
     padding-right: 65px;
     
 }
+
+/*...................
+rights section styles
+..................... */
 .rights-section{
+  /*display: none;*/
     display: flex;
     justify-content: center;
     height: 150px;
