@@ -22,6 +22,7 @@ header{
     color: #585353;
 }
 
+
 /*.................
 Navbar Css styles 
 ..................*/
@@ -56,6 +57,7 @@ ul li a{
     text-decoration: none;
     
 }
+
 
 /*..............
  Heading styles
@@ -102,12 +104,12 @@ ul li a{
     width: 950px;
 }
 
+
 /*....................
  Feature section styles
  ....................*/
 .features{
     margin-top: 40px;
-  /*display: none;*/
 }
 .quick-feature{
     display: flex; 
@@ -153,8 +155,6 @@ ul li a{
     border: none;
 }
 .feature-types{
-    /* height: 100%;
-    width: 100%; */
     display: flex;
     padding-left: 100px;
     padding-top: 80px;
@@ -186,14 +186,15 @@ ul li a{
     border: 0.5px solid #f0efef;
     padding: 5px 30px;
 }
+
+
 /*................
  facts section css 
  ................*/
 .facts{
     padding-top: 130px;
     height: 100%;
-    padding-bottom: 80px;
-    /* display: none; */
+    padding-bottom: 60px;
 }
 .facts-title{
     padding-left: 100px;
@@ -246,9 +247,9 @@ ul li a{
 sponsor section css
 ...................*/
 .sponsors-container{
-  /* display: none; */
     justify-content: center;
-    padding-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 .sponsors-title{
@@ -275,15 +276,74 @@ sponsor section css
     
 }
 
+
+/*.................
+ extra section css 
+ ..................*/
+.extra-section{
+    padding: 23px;
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1dede;
+}
+.extra-section-heading{
+    font-size: 40px;
+    padding: 20px 0px;
+    text-align: center;
+    border: 1px solid #ffebeb;
+    padding: 7px 11px;
+    border-radius: 10px;
+    color: #9c0bff;
+    background-color: #e5e5e5;
+
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 4px auto;
+    font-size: 13px;
+    border-radius: 10px
+}
+.form-group input:hover{
+    background-color: rgb(234, 226, 226);
+    cursor: pointer;  
+}
+
+.ex-heading{
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 30px;
+}
+.btn-submit{
+    padding: 13px 29px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    background-color: #ff7c20;
+}
+
+
 /*...................
 rights section styles
 ..................... */
 .rights-section{
-    /* display: none; */
     display: flex;
     justify-content: center;
     height: 150px;
-    padding-top: 15px;
+    padding-top: 55px;
 }
 .rights-div{
     width: 700px;
@@ -297,3 +357,4 @@ rights section styles
     height: 50px;
     border-radius: 5px;
  }
+ 
