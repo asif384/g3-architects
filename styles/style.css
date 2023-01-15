@@ -13,11 +13,13 @@ header{
     background: rgba(255, 144, 14, 0.1);
 }
 .primary-font{
-    font-size: 15px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 500;
 
 }
 .primary-font-color{
-    color: #424242;
+    color: #585353;
 }
 
 /*.................
@@ -59,7 +61,8 @@ ul li a{
  Heading styles
  ..............*/
 .header-details{
-    height:100%
+    height:100%;
+     padding-top:60px;
 }
 
 .header-title, .header-subtitle{
@@ -83,8 +86,8 @@ ul li a{
     padding: 16px 21px;
     border-radius: 8px;
     display: flex;
-    margin-left: 5px 550px;
-    margin: 24px 550px;
+    margin-left: 5px 545px;
+    margin: 24px 540px;
 }
 .bannar{
     padding-top: 10px;
@@ -148,13 +151,47 @@ ul li a{
     background-color: #ff832c;
     border: none;
 }
+.feature-types{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    padding-left: 100px;
+    padding-top: 80px;
+    justify-content: space-between;
+
+}
+.right-feature{
+    width: 50%;
+}
+.right-feature img{
+    height:500px ;
+    width:400px ;
+}
+.left-feature{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left-feature-title{
+    font-size: 30px;
+    border-left: 5px solid #ff7c11;
+    padding-left: 10px;
+}
+.feature-box-title{
+    color: #131313;
+}
+.feature-box{
+    border: 0.5px solid #f0efef;
+    padding: 5px 30px;
+}
 /*................
  facts section css 
  ................*/
 .facts{padding-top: 130px;
     height: 100%;
     padding-bottom: 80px;
-  /*display: none;*/
+  display: none;
 }
 .facts-title{
     padding-left: 100px;
@@ -187,7 +224,7 @@ ul li a{
 
 .box:hover{
     border: 1px solid rgb(0, 136, 255);
-    background-color: #b0a6a6;
+    background-color: #e1d4d4;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -207,7 +244,7 @@ ul li a{
 sponsor section css
 ...................*/
 .sponsors-container{
-  /*display: none;*/
+  display: none;
     justify-content: center;
 }
 
@@ -239,7 +276,7 @@ sponsor section css
 rights section styles
 ..................... */
 .rights-section{
-  /*display: none;*/
+    display: none;
     display: flex;
     justify-content: center;
     height: 150px;
